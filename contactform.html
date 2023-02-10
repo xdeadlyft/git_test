@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title>Contact form Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="form-container">
+           
+            <form>
+                <h1 class="contactform">Contact Form:</h1>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Username:</label>
+                <input type="username" id="username" name="username" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+
+              <div class="form-group">
+                <label for="Re-type_password">Re-type Password:</label>
+                <input type="Re-type_password" id="Re-type_password" name="Re-type_password" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="gender">Gender:</label>
+
+                <div class="form-group1">
+               <label for=""><input type="radio" id="Male" name="Gender">Male</label>
+               <label for=""><input type="radio" id="female" name="Gender">Female</label>
+               </div>
+              
+            </div>
+
+
+             
+
+              <div class="form-group">
+                <label for="Techie_skills">Techie Skills:</label>
+                <div class="form-group2">
+                <input type="checkbox"id="HTML">HTML
+                <input type="checkbox"id="CSS">CSS
+                <input type="checkbox"id="Javascript">Javascript
+               </div>
+            </div>
+
+
+
+              <div class="form-group">
+                <label for="phone_number">Phone Number:</label>
+                <input type="phone_number" id="phone_number" name="phone_number" pattern="[0-9]{3}[0-9]{8}">
+              </div>
+
+              <div class="form-group">
+                <label for="message">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="college">College:</label>
+                <div class="school">
+                <select name="school" id="school">
+                  <option value="Seneca">Seneca</option>
+                  <option value="Durham">Durham</option>
+                  <option value="Niagara">Niagara </option>
+                  <option value="Centennial">Centennial</option>
+                </select>
+            
+              </div>
+            </div>
+              
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
+
+          </div>
+      
+
+      
+        </body>
+</html>
+
