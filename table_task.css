@@ -1,0 +1,29 @@
+table
+{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table th
+{
+    text-align: left;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    font-size: larger;
+    padding: 4px 30px 4px 8px;
+}
+
+table td
+{
+border: 1px solid black;
+padding: 4px 8px;
+font-size: 20px;
+}
+
+.students_list
+{
+    text-align: center;
+    
+}
