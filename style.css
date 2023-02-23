@@ -1,5 +1,9 @@
-.form-container {
+.form-container
+ {
     padding: 40px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
   }
 
   
@@ -12,6 +16,7 @@
     width: 500px;
     display: flex;
     flex-direction: column;
+    
   }
   
   .form-group {
