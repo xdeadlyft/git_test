@@ -88,6 +88,8 @@ color:#155EEF;
 
     display: flex;
   background-color: black;
+  margin-top: -15px;
+
 } 
 
 
@@ -212,7 +214,7 @@ flex-grow: 0;
 
 .photo2
 {
-    margin-top: 18px;
+    margin-top: 10px;
     position: inherit;
     margin-left: 4.5%;
     
@@ -259,7 +261,7 @@ margin-top: -15px;
 
 .buttons
 {
-    margin-top: 6%;
+   margin-top: 3%;
     margin-left:25%;
     
 }
@@ -283,6 +285,7 @@ font-size: 16px;
 letter-spacing: 0.5px;
 color: #FFFFFF;
 margin-right:15px;
+border-color:#155EEF ;
 }
 
 .seemyresume
