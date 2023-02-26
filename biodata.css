@@ -4,49 +4,34 @@
 header 
 {
     background-color: #F1F5FE;
-    padding: 10px;
     display: flex;
-align-items: center;
 padding: 16px 120px;
-gap: 153px;
-position: static;
-height: 86.08px;
-left: 0px;
-top: 0px;
+height: 70px;
+align-items: center;
+justify-content: space-around;
+gap:20%;
 }
+
 
 .navlinks
 {
-    display: flex;
+display: flex;
 flex-direction: row;
 align-items: center;
-padding: 0px;
-gap: 97px;
-width: 439px;
-height: 44px;
-flex: none;
-order: 1;
-flex-grow: 0;
-height: 24px;
+gap: 50px;
 font-family: 'Halant';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 color:black;
-margin-left: 15%;
+padding-left: 10%;
 }
 
 
 .navjustprojects
 {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-    width: 680px;
-    height: 54.08px; 
-}
+ }
 
 a
 {
@@ -56,26 +41,19 @@ a
 
 .hireme
 {
+    display: flex;
     box-sizing: border-box;
-display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 10px 16px;
-gap: 10px;
-width: 94px;
-height: 44px;
 border: 1px solid #155EEF;
 background-color: #F1F5FE;
 border-radius: 8px;
-flex: none;
-order: 2;
-flex-grow: 0;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 600;
 font-size: 17px;
 color:#155EEF;
-
 }
 
 
@@ -83,82 +61,63 @@ color:#155EEF;
 
 /*content style*/
 
+
 .content
 {
 
     display: flex;
   background-color: black;
-  margin-top: -15px;
-
+  height: 485px;
+  justify-content: space-around;
 } 
-
-
 
 .photo1
 {
-   
-    
-    width: 443px;
-    height: 479px;
-    left: 949px;
-    top: 56px;
-    margin-left: 12%;
-    position:sticky;
+    padding-top: 40px;
 }
-
-
-
 
 .links1
  {
     list-style: none;
    color:#B8B8B8;
-height: 30px;
 font-family: 'Halant';
 font-style: normal;
 font-weight: 600;
 font-size: 25px;
+height: 150px;
+padding-top: 55px;
  }
 
  .im
  {
-    margin-left: 10%;
+
  }
 
  .Anthony
  {
-    flex: none;
-order: 0;
-flex-grow: 1;
-    width: 840px;
     list-style: none;
    color:#FFFFFF;
-height: 30px;
 font-family: 'Halant';
 font-style: normal;
 font-weight: 600;
 font-size: 50px;
 line-height: 120%;
-margin-bottom: 3%;
-margin-left: 9%;
+flex-wrap: wrap;
+width: 500px;
  }
 
 .about
 {
     color:#A3A3A3;
-    width: 900px;
-height: 144px;
 line-height: 150%;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
-flex: none;
-order: 0;
-flex-grow: 1;
-/* or 48px */
+font-size: 30px;
 letter-spacing: 0.5px;
-margin-left: 9%;
+width: 680px;
+flex-shrink: 2;
+max-width: 100%;
 }
 
 .seeprojects
@@ -168,20 +127,16 @@ flex-direction: row;
 align-items: flex-start;
 padding: 10px 16px;
 gap: 10px;
-width: 168px;
-height: 44px;
 background: #155EEF;
+border-color: #155EEF;
 border-radius: 8px;
-flex: none;
-order: 1;
-flex-grow: 0;
 font-family: 'Manrope';
 font-style: normal;
-font-weight: 450;
+font-weight: 650;
 font-size: 18px;
 letter-spacing: 0.5px;
 color: #FFFFFF;
-margin-left: 9%;
+margin-top: 15px;
 }
 
 /*2ND CONTENT CSS*/
@@ -190,10 +145,10 @@ margin-left: 9%;
 {
 
     display:flex;
-margin-top: 1.5%;
 background: #F5F8FE;
-position:sticky;
-height: 420px;
+height: 485px;
+justify-content: space-around;
+
 } 
 
 
@@ -202,104 +157,66 @@ height: 420px;
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-gap: 8px;
-width: 575px;
-height: 258px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+padding-top: 25px;
 }
 
 .photo2
 {
-    margin-top: 10px;
-    position: inherit;
-    margin-left: 4.5%;
-    
+    padding-top: 32px;
 }
 
 
 .aboutme
 {
-    width: 157px;
-height: 45px;
 font-family: 'Halant';
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 50px;
 color: #000000;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-left:25%;
 
 }
 
 .aboutme2
 
 {
-width: 575px;
-height: 120px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 26px;
 line-height: 150%;
 text-align: justify;
 letter-spacing: 0.5px;
 color: #000000;
-flex: none;
-order: 0;
-flex-grow: 1;
-margin-left:25%;
-margin-top: -15px;
-
+width:575px;
+height:180px;
+margin-top: -3px;
+padding-bottom: 35px;
 }
 
-.buttons
-{
-   margin-top: 3%;
-    margin-left:25%;
-    
-}
+
 
 .hireme2
 {
-    box-sizing: border-box;
-width: 160px;
-height: 44px;
+box-sizing: border-box;
 background: #155EEF;
 border-radius: 8px;
-flex: none;
-order: 0;
-flex-grow: 0;
-left: 49px;
-top: 10px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
+font-size: 18px;
 letter-spacing: 0.5px;
 color: #FFFFFF;
-margin-right:15px;
 border-color:#155EEF ;
+width: 160px;
+height: 44px;
+margin-right: 15px;
 }
 
 .seemyresume
 {
-    box-sizing: border-box;
-    width: 160px;
-    height: 44px;
     background: white;
     border-radius: 8px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    left: 49px;
-    top: 10px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -307,6 +224,8 @@ border-color:#155EEF ;
     letter-spacing: 0.5px;
     color: #155EEF;
     border-color:#155EEF ;
+    width: 160px;
+    height: 44px;
 }
 
 
@@ -319,20 +238,15 @@ footer
     align-items: center;
     justify-content: space-between;
     padding: 16px 120px;
-    height: 35px;
-    left: 0px;
     background: #080808;
-    bottom:0;
-    left:0;
-    right:0;
-    position:fixed;
     display: flex;
+    height: 40px;
    
 }
 
 .footerlogo
 {
-    margin-left: -2%;
+
 }
 
 
@@ -341,23 +255,14 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 32px;
-    width: 400px;
-    height: 24px;
-    flex: none;
-    order: 1;
-    flex-grow: 1;
-    margin-left:12%;
-    
+    align-items: center;    
+    gap: 25px;
 }
 
 
 .anthonyfooter
 {
  
-height: 36px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 500;
