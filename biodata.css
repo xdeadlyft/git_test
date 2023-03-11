@@ -28,20 +28,22 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 color:black;
-width: 32%;
-margin-left: 5%;
+width: 50%;
+padding-right: 5%;
 }
 
 
 .vector
 {
     display: none;
+    justify-content: end;
 }
 
 
 .navjustprojects
 {
     display: flex;
+    width: 100%;
  }
 
 
@@ -54,22 +56,23 @@ a
 
 .home
 {
-    padding-left: 38%;
+    padding-left: 10%;
 }
 
 .hireme
 {
 
     box-sizing: border-box;
-padding: 10px 16px;
+padding: 8px 12px;
 border: 1px solid #155EEF;
 background-color: #F1F5FE;
 border-radius: 8px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 600;
-font-size: 17px;
+font-size: 20px;
 color:#155EEF;
+width:100%;
 }
 
 
@@ -223,7 +226,7 @@ padding-top: 5%;
 {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    
     margin-top: 3%;
     }
 
@@ -272,7 +275,6 @@ footer
     padding: 16px 120px;
     background: #080808;
     display: flex;
-    height: 40px;
    
 }
 
@@ -284,6 +286,7 @@ footer
     justify-content: center;
     align-items: center;    
     gap: 25px;
+    
 }
 
 
@@ -299,29 +302,40 @@ letter-spacing: 0.5px;
 color: #FFFFFF;
 }
 
-@media screen and (max-width:1110px)
+@media screen and (max-width:1085px)
 {
-
-    .bio
-    {
-        width: 80%;
-    }
-
-.photo2
-{
-    width: 80%;
-    height: 80%;
-}
 
 .aboutme2
 {
  padding-top: 0;
- width: 65%;
+ width: 75%;
  height: 22%;
  font-size: 20px;
 }
 
+.socialsites
+    {
+        padding: 16px 16px;
+    }
 
+.photo2
+{
+    width: 85%;
+}
+
+    .socialsites1
+    {
+        display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+   footer .anthonyfooter
+   {
+    width: 100%;
+    font-size: 18px;
+    display: inline-block;
+   }
 
 }
 
@@ -329,7 +343,7 @@ color: #FFFFFF;
 
 
 
-@media screen and (max-width:995px)
+@media screen and (max-width:885px)
 
 {
 
@@ -337,21 +351,18 @@ color: #FFFFFF;
  {
     padding: 0;
     display: flex;
-    width: 80%;
+   width: 100%;
+   margin-left: 5%;
  }
 
- .navlinks
- {
-   
-    padding-left: 25%;
- }
+ 
 
 .Header
 {
     display: flex;
     height: 5%;
     background-color: #F1F5FE;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 
@@ -360,13 +371,19 @@ color: #FFFFFF;
 display: none;
 }
 
+
 .vector
 {
     display: block;
+    padding-left: 5%;
 }
 
+.navlinks
+{
+justify-content: end;
+}
 
-    .content
+   .content
     {
         flex-direction: column-reverse;
         align-items: center;
@@ -380,6 +397,18 @@ display: none;
         padding-top: 0;
         width: 90%;
        }
+
+       .photo1
+    {
+    width: 85%;
+    height: 80%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    object-fit:contain;
+    }
+
    
        .Anthony
        {
@@ -417,9 +446,8 @@ display: none;
 
        .bio
        {
-        margin-top: -12%;
-        padding-top: 0;
-        width: 90%;
+        padding-top:0 ;
+        width: 100%;
         display: flex;
         align-items: center;
 
@@ -427,7 +455,7 @@ display: none;
 
        .aboutme
        {
-        margin-top: -1%;
+        margin-top: -5%;
         font-size: 22px;;
        }
 
@@ -445,7 +473,6 @@ display: none;
         flex-wrap: wrap;
         height: fit-content;
         display: flex;
-        height: 30%;
        }
 
 
@@ -454,6 +481,14 @@ display: none;
         width: 45%;
 
     }
+
+    .socialsites
+    {
+        padding: 16px 16px;
+    }
+
+
+
 
     .socialsites1
     {
@@ -465,7 +500,7 @@ display: none;
    footer .anthonyfooter
    {
     width: 100%;
-    font-size: 18px;
+    font-size: 22px;
     display: inline-block;
    }
 
