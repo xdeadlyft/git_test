@@ -22,13 +22,13 @@ gap:20%;
 display: flex;
 flex-direction: row;
 align-items: center;
-gap: 5%;
+gap: 20%;
 font-family: 'Halant';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 color:black;
-width: 50%;
+width: 100%;
 padding-right: 5%;
 }
 
@@ -70,9 +70,9 @@ border-radius: 8px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
+font-size: 17px;
 color:#155EEF;
-width:25%;
+width:94px;
 }
 
 
@@ -154,8 +154,8 @@ border-color: #155EEF;
 border-radius: 8px;
 font-family: 'Manrope';
 font-style: normal;
-font-weight: 650;
-font-size: 20px;
+font-weight: 700;
+font-size: 22px;
 letter-spacing: 0.5px;
 color: #FFFFFF;
 margin-top: 15px;
@@ -234,16 +234,18 @@ padding-top: 5%;
 box-sizing: border-box;
 background: #155EEF;
 border-radius: 8px;
+display :inline-block;
+letter-spacing: 0.5px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
+font-size: 18px;
 letter-spacing: 0.5px;
 color: #FFFFFF;
 border-color:#155EEF ;
 margin-right: 15px;
-width: 120px;
-height: 30px;
+width: 160px;
+height: 44px;
 }
 
 .seemyresume
@@ -258,8 +260,6 @@ height: 30px;
     color: #155EEF;
     border-color:#155EEF ;
     width: 150px;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
 }
 
 
@@ -315,7 +315,7 @@ color: #FFFFFF;
 .buttons
 {
     display: flex;
-width: 100%;
+width: 80%;
 justify-content: center;
 }
 
@@ -327,6 +327,8 @@ justify-content: center;
 .seemyresume
 {
     width: 45%;
+    font-size: 18px;
+    padding: 0;
 }
 
 
@@ -339,7 +341,7 @@ justify-content: center;
 
 .photo2
 {
-    width: 85%;
+    width: 75%;
 }
 
     .socialsites1
@@ -543,13 +545,25 @@ justify-content: end;
 
     @media screen and (max-width:644px)
     {
-        .seemyresume
+        .hireme2
     {
-    width: 45%;
+    width: 25%;
     }
 
     .seemyresume
     {
-    width: 45%;
+    width: 25%;
     }
+
+   footer .anthonyfooter
+    {
+        font-size: 16.5px;
+    }
+
+
+
+
+
+
+
     }
